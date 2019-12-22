@@ -15,7 +15,8 @@ modules:[
 			module: 'MMM-catfact',
 			position: 'top_left',
 			config: {
-				maxlength: 80
+				maxlength: 40,
+				fadespeed: 2000
 			}
 		},
 ]
