@@ -3,13 +3,14 @@ Module.register('MMM-catfact', {
         text: '',
         maxlength: 40,
         fadespeed: 2000,
+        updatespeed: 10000
     },
     start: function () {
         setTimeout(() => {
             this.sendSocketNotification('run', this.config.maxlength);
             setInterval(() => {
                 this.sendSocketNotification('run', this.config.maxlength);
-            }, 10000);
+            }, this.config.updatespeed);
         }, 1000);
     },
     getDom: function () {
