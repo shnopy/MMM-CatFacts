@@ -1,4 +1,5 @@
 ## How to install
+### Project for [Magic Mirror] (https://github.com/MichMich/MagicMirror)
 Clone this repo into your 'modules' folder
 
 ```bash
@@ -7,7 +8,7 @@ cd MMM-catfact
 npm install
 ```
 
-# How to use
+## How to use
 
 ```javascript
 modules:[
