@@ -16,7 +16,8 @@ modules:[
 			position: 'top_left',
 			config: {
 				maxlength: 40,
-				fadespeed: 2000
+				fadespeed: 2000,
+				updatespeed: 10000
 			}
 		},
 ]
@@ -26,3 +27,4 @@ modules:[
 |---|---|
 |`maxlength`|`Integer` Sets how many characters can be in the fact. **Default: 40**|
 |`fadespeed`|`Integer` Controls fade speed (`ms`). **Default: 2000**|
+|`updatespeed`|`Integer` Controls how much time there is between facts (`ms`). **Default: 10000**|
