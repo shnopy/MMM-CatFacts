@@ -21,6 +21,6 @@ modules:[
 ]
 ```
 
-|Option|Optional Settings Description|
+|Option|Description|
 |---|---|
-|`maxlength`|Int. sets how many characters can be in the fact. **Default: 40|**
+|`maxlength`|`Integer` sets how many characters can be in the fact. **Default: 40**|
