@@ -1,5 +1,5 @@
-## How to install
-### Module for [Magic Mirror](https://github.com/MichMich/MagicMirror)
+## This is a module for [Magic Mirror](https://github.com/MichMich/MagicMirror)
+### How to install
 Clone this repo into your 'modules' folder
 
 ```bash
@@ -8,7 +8,7 @@ cd MMM-catfact
 npm install
 ```
 
-## How to use
+### How to use
 
 ```javascript
 modules:[
