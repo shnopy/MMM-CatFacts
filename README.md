@@ -2,7 +2,7 @@
 Clone this repo into your 'modules' folder
 
 ```bash
-git clone https://github.com/shnopy/MMM-CatFacts.git
+git clone https://github.com/shnopy/MMM-catfact.git
 cd MMM-CatFacts
 npm install
 ```
