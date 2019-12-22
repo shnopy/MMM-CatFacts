@@ -4,7 +4,7 @@ Clone this repo into your 'modules' folder
 ```bash
 git clone https://github.com/shnopy/MMM-CatFacts.git
 cd MMM-CatFacts
-npm i
+npm install
 ```
 
 # How to use
