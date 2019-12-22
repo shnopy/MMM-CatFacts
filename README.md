@@ -1,5 +1,5 @@
 ## How to install
-### Project for [Magic Mirror](https://github.com/MichMich/MagicMirror)
+### Module for [Magic Mirror](https://github.com/MichMich/MagicMirror)
 Clone this repo into your 'modules' folder
 
 ```bash
