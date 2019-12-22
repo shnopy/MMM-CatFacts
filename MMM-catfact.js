@@ -14,7 +14,7 @@ Module.register('MMM-catfact', {
     },
     getDom: function () {
         let wrapper = document.createElement('div');
-        wrapper.className = "dimmed smallish light down";
+        wrapper.className = "dimmed small light";
         wrapper.innerHTML = this.config.text;
         return wrapper;
     },
