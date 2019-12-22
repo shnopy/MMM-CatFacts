@@ -24,5 +24,4 @@ modules:[
 |Option|Description|
 |---|---|
 |`maxlength`|`Integer` Sets how many characters can be in the fact. **Default: 40**|
-|---|---|
 |`fadespeed`|`Integer` Controls fade speed (`ms`). **Default: 2000**|
