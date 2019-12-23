@@ -3,7 +3,8 @@ Module.register('MMM-catfact', {
         text: '',
         maxlength: 40,
         fadespeed: 2000,
-        updatespeed: 10000
+        updatespeed: 10000,
+        size: 'small'
     },
     start: function () {
         setTimeout(() => {
@@ -15,7 +16,7 @@ Module.register('MMM-catfact', {
     },
     getDom: function () {
         let wrapper = document.createElement('div');
-        wrapper.className = "dimmed small light";
+        wrapper.className = `dimmed ${this.config.size} light`;
         wrapper.innerHTML = this.config.text;
         return wrapper;
     },
